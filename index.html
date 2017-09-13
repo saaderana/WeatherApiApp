@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>AJAX GitHub API example</title>
+        <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+        <link href="index.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+      <main>
+        <h2 class = "main-header"> Get Weather from Multiple Sources!</h2>
+        <div class="screen">
+       <form method="get" class = "form" id = "search-term">
+    <fieldset>
+        <ul>
+            <li class = form-field>
+                <label for="latitude">Latitude</label>
+                <input type="text" id="latitude" placeholder="e.g. 42.9150747">
+            </li>
+
+            <li class = "form-field">
+                <label for="longitude">Longitude</label>
+                <input type="text" id="longitude" placeholder="e.g. -77.784323">
+            </li>
+            <li class = "form-field" id="city-name">
+         <label for="city-search" class = "city-label">Enter City Name</label>
+        <input type="text" id="city-search" placeholder="e.g. Rochester, NY" required>
+</li>
+        </ul>
+    </fieldset>
+
+    <button id = "getW">Get Weather</button>
+</form>
+  </div>
+  <div class = "jumbotron">
+  </div>
+      </main>
+      <script src="index.js"></script>
+
+
+    </body>
+</html>

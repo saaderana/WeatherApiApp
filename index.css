@@ -1,0 +1,116 @@
+body{
+  background: url("http://www.voiceofpeace.org/main/wp-content/uploads/2014/11/KO-background-header.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+
+
+.main-header{
+  text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.form fieldset{
+  border:none;
+
+}
+
+.screen{
+   display: block;
+  text-align:center;
+}
+
+.form{
+   width: 400px;
+  padding-right: 40px;
+  padding-left: 40px;
+  text-align:center;
+  display:inline-block;
+  background-image: url("https://media.giphy.com/media/xT9GEDhzERbjDD15O8/giphy.gif");
+  background-repeat: no-repeat;
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+
+
+.form-field{
+  list-style-type: none;
+  text-align:center;
+  display:inline-block;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+#city-name{
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.city-label{
+  font-weight: bold;
+  font-family: "Arial" Sans-Serif;
+  color:blue;
+}
+
+
+
+button{
+  box-sizing: border-box;
+  margin-top: 15px;
+   font-family: 'Montserrat', sans-serif;
+  background-color: grey;
+  color:blue;
+  border: 2px solid blue;
+  border-radius: 0.6em;
+   cursor: pointer;
+  font-weight: 700;
+  opacity:0.5;
+
+}
+
+button:hover{
+  opacity:1;
+}
+
+
+#back{
+
+}
+
+.list-reset{
+  list-style-type: none;
+  padding-right: 20px;
+  margin-bottom: 30px;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.list-reset li{
+  display: inline;
+}
+
+.city{
+   color: #ffffff; font-family: 'Lato', sans-serif;
+   font-size: 30px;
+   font-weight: 300;
+   line-height: 30px;
+
+}
+
+.day{
+  color: black;
+   font-size: 20px;
+   font-weight: 100;
+   line-height: 10px;
+   margin-bottom: 9px;
+   margin-top: 8px;
+}
+
+.yahoo{
+  color:purple;
+}
