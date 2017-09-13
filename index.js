@@ -180,7 +180,10 @@ function getRequest(searchTerm) {
             bootbox.alert("Location not found: " + location + "!");
 
         } else {
-            $('.screen').append('<h1 class = "yahoo">'+ 'Alternate Weather from Yahoo' +'</h1>'+'<h2>' + data.query.results.channel.item.title + '</h2>' +
+            $('.screen').append(
+                '<button id="back">New Forecast</button>'
+                +'<h1 class = "yahoo">'+ 'Alternate Weather from Yahoo' +'</h1>'
+                +'<h2>' + data.query.results.channel.item.title + '</h2>' +
                 forecast);
 
         }
