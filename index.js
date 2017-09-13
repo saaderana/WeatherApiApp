@@ -181,8 +181,7 @@ function getRequest(searchTerm) {
 
         } else {
             $('.screen').append(
-                '<button id="back">New Forecast</button>'
-                +'<h1 class = "yahoo">'+ 'Alternate Weather from Yahoo' +'</h1>'
+               '<h1 class = "yahoo">'+ 'Alternate Weather from Yahoo' +'</h1>'
                 +'<h2>' + data.query.results.channel.item.title + '</h2>' +
                 forecast);
 
