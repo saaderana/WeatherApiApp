@@ -1,0 +1,5 @@
+WeatherApiApp
+
+The application displays weather information about a user selected location. 
+
+The application uses Darksky API, Yahoo API and google API. HTML, CSS, JavaScript and jQuery were used.
