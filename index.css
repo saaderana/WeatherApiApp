@@ -27,7 +27,7 @@ body{
     text-align: center;
     font-size: 20px;
     margin-bottom: 30px;
-    color:white;
+    color: #ffffff; font-family: 'Lato', sans-serif; 
 }
 
 #search-term{
