@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
@@ -12,16 +12,18 @@
     </head>
     <body>
       <main>
-        <h2 class = "main-header"> Get Weather from Multiple Sources!</h2>
+        <h2 class = "main-header"> Get Weather from Multiple Sources</h2>
         <div class="screen">
-       <form method="get" class = "form" id = "search-term">
-    <fieldset>
+        <div class = "form">
+          <p class = "welcome">Explore the weather of any destination from the comfort of your computer<br /> See the Latitude and Longitude of any city name you enter<br /> Enjoy the clouds and reach for the sky!</p>
+       <form method="get" id = "search-term">
+        <fieldset>
         <ul>
             <li class = form-field>
                 <label for="latitude">Latitude</label>
                 <input type="text" id="latitude" placeholder="e.g. 42.9150747">
             </li>
-
+ 
             <li class = "form-field">
                 <label for="longitude">Longitude</label>
                 <input type="text" id="longitude" placeholder="e.g. -77.784323">
@@ -32,15 +34,19 @@
 </li>
         </ul>
     </fieldset>
-
+ 
     <button id = "getW">Get Weather</button>
 </form>
+</div>
   </div>
   <div class = "jumbotron">
   </div>
       </main>
       <script src="index.js"></script>
-
-
+    <footer>
+  <p>Created by: Saad Rana</p>
+  <p>Contact information: <a href="https://www.linkedin.com/in/saad-rana-38a2334a/" target="_blank">
+  LinkedIn Page</a>.</p>
+</footer>
     </body>
 </html>
