@@ -43,6 +43,7 @@ body{
    padding-bottom: 40px;
    margin-top: 50px;
    margin-bottom: 400px;
+   border-radius: 100%;
 }
 
 
@@ -54,7 +55,7 @@ body{
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  color:grey;
+  color:white;
 }
 
 #city-name{
@@ -66,6 +67,10 @@ body{
   font-weight: bold;
   font-family: "Arial" Sans-Serif;
   color: white;
+}
+
+.inputSelect{
+  padding: 3px;
 }
 
 
